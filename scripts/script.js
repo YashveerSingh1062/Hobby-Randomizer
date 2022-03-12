@@ -119,7 +119,7 @@ function blip()
 
 function setRandomImage() {
     // generate a random number and assign a texture base on that number
-    var randomNumber = randomBetween(1,10);  // we have 8 images in total
+    var randomNumber = randomBetween(1, 9);  // we have 8 images in total
     let str = randomNumber + "";
     (async function() {
         // Locate the material and texture in the Assets
